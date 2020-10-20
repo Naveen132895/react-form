@@ -1,0 +1,49 @@
+.signup-container{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 80vh;
+    margin-top: 10%;
+    justify-content: space-around;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+}
+.form > h2{
+    text-align: center;
+}
+
+.form > label{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+.form > input{ 
+    width: 50%;
+    height: 4vh;
+    margin-left: 25%;
+    border: 1px solid #5f27cd;
+    border-radius: 5px;
+}
+
+.form > span{ 
+
+    margin-left: 10%;
+    color: orangered;
+}
+
+.form > button{
+    margin : 5% auto 5% 40%;
+    width: 20%;
+    height: 5vh;
+    background-color: #5f27cd;
+    color: white;
+    border: 1px solid #5f27cd;
+    border-radius: 5px;
+}

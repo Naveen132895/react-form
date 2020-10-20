@@ -1,0 +1,30 @@
+.nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: #5f27cd;
+    color: white;
+}
+
+.logo-text{
+    margin-left: 5%;
+}
+
+.right {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 5%;
+    text-decoration: none;
+    justify-content: space-around;
+    color: white;
+}
+
+.right > li{
+    cursor: pointer;
+    margin-left: 2%;
+    padding: 3%;
+    text-decoration: none;
+    
+}
